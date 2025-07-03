@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features/featurerest",
-        glue = "hooks",
+        glue = {"stepDefinitions","hooks"},
         plugin = {"pretty", "summary", "html:target/cucumber-report.html"},
         tags = "@createuser"
 )

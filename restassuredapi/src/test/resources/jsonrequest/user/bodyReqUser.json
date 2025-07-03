@@ -1,5 +1,5 @@
 {
-  "creareUser": {
+  "createUser": {
     "id": "{{id}}",
     "username": "{{username}}",
     "firstName": "{{firstName}}",
