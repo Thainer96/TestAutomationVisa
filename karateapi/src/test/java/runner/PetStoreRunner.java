@@ -1,4 +1,4 @@
-package petstoreapi.karateframework.runner;
+package runner;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
@@ -13,7 +13,7 @@ public class PetStoreRunner {
     @Karate.Test
     Karate testAll(){
         return Karate.run("classpath:features/karatefeatures")
-                .tags("@getMultiplePets")
+                .tags("@regression")
                 .relativeTo(getClass());
     }
 

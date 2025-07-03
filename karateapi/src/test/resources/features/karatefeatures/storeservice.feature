@@ -4,7 +4,7 @@ Feature: all feature for store services
     * url urlBase
 
   @user @regression
-  Scenario Outline: api service create user <user>
+  Scenario Outline: api service create user <username>
     * path 'user'
     * def requestBody =
     """

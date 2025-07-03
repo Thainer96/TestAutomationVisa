@@ -1,4 +1,4 @@
-package petstoreapi.karateframework.runner;
+package runner;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
